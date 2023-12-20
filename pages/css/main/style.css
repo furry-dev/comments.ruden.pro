@@ -1,0 +1,124 @@
+@media (max-width: 480px) {
+  .logo-title {
+    flex-direction: column;
+  }
+  .bottom {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+}
+.additional-header {
+  color: white;
+  margin-top: 60px;
+  background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(0, 0, 0, 0.8)), url("https://ghost.org/help/content/images/2022/08/comments-in-ghost.png") center center/cover;
+}
+.additional-header .container {
+  padding-top: 95px;
+  padding-bottom: 85px;
+}
+.additional-header .container .content {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.additional-header .container .content .logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.additional-header .container .content .logo-title img {
+  height: 100px;
+  margin-right: 15px;
+}
+.additional-header .container .content .logo-title h1 {
+  color: var(--main-logo-color);
+  font-size: clamp(36px, 10vw, 65px);
+}
+.additional-header .container .content .description {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 200;
+}
+.additional-header .container .content .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.additional-header .container .content .bottom .button {
+  font-size: 16px;
+  padding: 10px 25px;
+}
+.additional-header .container .content .bottom .button.start-button {
+  background-color: var(--main-logo-color);
+  color: white;
+  white-space: nowrap;
+  transition: background-color 0.2s ease-out;
+}
+.additional-header .container .content .bottom .button.start-button:hover {
+  background-color: #ffffff;
+  color: red;
+}
+.additional-header .container .content .bottom .button.tutorial-button {
+  padding-left: 15px;
+  padding-right: 7px;
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--main-logo-color);
+  transition: color 0.2s ease-out;
+}
+.additional-header .container .content .bottom .button.tutorial-button:hover {
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  column-gap: 15px;
+  margin: 0 auto;
+}
+main section {
+  margin: 60px auto 65px;
+  line-height: 25px;
+}
+main section h3 {
+  color: var(--main-head-color);
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+main section.preview {
+  flex: 1 0 33.333%;
+}
+main section.preview .preview-window {
+  border-radius: 15px;
+  border: 2px solid #4c4c4c;
+  min-height: 500px;
+}
+main .greeting {
+  font-size: 18px;
+}
+main .about-project {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+main .about-project .content {
+  flex: 1 0 200px;
+  display: flex;
+  flex-direction: column;
+}
+main .about-project .content h3 {
+  color: var(--additional-head-color);
+}
+main .about-project .content p {
+  font-size: 16px;
+  margin-top: 25px;
+}
+main .about-project .content p:first-child {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
