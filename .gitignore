@@ -1,4 +1,4 @@
 .idea
-node_modules
-.env
+backend/node_modules
+backend/.env
 diagrams/.$*.drawio.bkp

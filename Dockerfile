@@ -12,6 +12,6 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY src .
 
 ENTRYPOINT npm run start
